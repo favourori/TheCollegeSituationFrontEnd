@@ -1,9 +1,6 @@
 module.exports = {
-    baseUrl: "",
-    outputDir: "dist",
-    assetsDir: "assets",
-    runtimeCompiler: undefined,
-    productionSourceMap: undefined,
-    parallel: undefined,
-    css: undefined
-}
+  devServer: {
+    proxy: "http://localhost:4000",
+    disableHostCheck: true
+  }
+};

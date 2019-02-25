@@ -2,9 +2,9 @@
   <div class="home">
    <div class="header" >
      <div class="container" style="padding-top: 140px">
-<p style=" font-size: 27px; color: white; font-weight: 400 ">The College Situation</p>
-<p style="padding-bottom: 15px; font-size: 16px; color: white; line-height: 1px; font-weight: 100 ">Connecting Students with Schools, Jobs, Oppourtunies, Housing, &  Fellow Students Abroad.</p>
-<p style="font-size: 14px; color: white; line-height: 1px; font-weight: 100 ">Learn ● Explore ● Connect</p>
+<p style=" font-size: 27px; color: white; font-weight: 400 " class="animated fadeInUp">The College Situation</p>
+<p style="padding-bottom: 15px; font-size: 16px; color: white; line-height: 1px; font-weight: 100 " class="animated fadeInUp">Connecting Students with Schools, Jobs, Scholarships,  Roommates, &  Fellow Students Abroad.</p>
+<p style="font-size: 14px; color: white; line-height: 1px; font-weight: 100 " class="animated fadeInUp">Learn ● Explore ● Connect</p>
 <br/>
 <img src="@/assets/playstore.png" width="150px"> &nbsp; <img src="@/assets/appstore.png" width="150px">
 <br/>
@@ -13,7 +13,7 @@
 
 
    <div class="students">
-<center><p>For students</p></center>
+<center><p style="font-size: 28px">For students</p></center>
 
 <div class="row  container" >
       <div class="col s12" style="font-size: 16px; ">If you are  a student looking to study Abroad (United States, Canada, United kingdom, etc), we have done all the hardwork of bringing all the resources you need together to fasten your process.</div>
@@ -68,7 +68,7 @@
 <div class="visa-agents">
 
 
-<center><p>For Visa Agents</p></center><br/>
+<center><p style="font-size: 28px">For Visa Agents</p></center><br/>
 
 <div class="row  container" >
       <div class="col s12" style="font-size: 16px; ">If you are  a student looking to study Abroad (United States, Canada, United kingdom, etc), we have done all the hardwork of bringing all the resources you need together to fasten your process.</div>
@@ -112,12 +112,12 @@
 
 
 
-   <footer class="page-footer primary-color" style="height: 440px">
+   <footer class="page-footer primary-color" style="height: 470px">
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
                 <h5 class="white-text" style="font-weight: 100">College Situation</h5>
-                <p class="grey-text text-lighten-4" style="font-weight: 100">Connecting Students with Schools, Jobs, Oppourtunies, Housing, & Fellow Students Abroad.</p>
+                <p class="grey-text text-lighten-4" style="font-weight: 100">Connecting Students with Schools, Jobs, Scholarships, Housing, & Fellow Students Abroad.</p>
               </div>
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text" style="font-weight: 100">Helpful Links</h5>
@@ -132,7 +132,7 @@
           </div>
           <div class="footer-copyright">
             <div class="container">
-            © 2019 All Rights Reserved
+            © 2019 TCS, All Rights Reserved.
             
             </div>
           </div>
@@ -171,7 +171,7 @@ export default {
 
 
 .header{
-height: 470px;
+height: 510px;
     width: 100%;
     background-position: center;
     background-size: cover;

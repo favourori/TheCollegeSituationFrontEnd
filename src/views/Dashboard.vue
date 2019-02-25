@@ -1,11 +1,13 @@
 <template>
   <div>
-    <h3>About page</h3>
+    <h3>dashboard</h3>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+    
+};
 </script>
 
 <style>
